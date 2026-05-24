@@ -1,0 +1,28 @@
+{
+  "name": "backend-intro",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "homepage": "https://github.com/Olivetree312/backend-intro#readme",
+  "bugs": {
+    "url": "https://github.com/Olivetree312/backend-intro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olivetree312/backend-intro.git"
+  },
+  "license": "ISC",
+  "author": "Olivia Chen",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
